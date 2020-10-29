@@ -4,6 +4,7 @@ try:
     x.append(input("Podaj drugą wartosc: "))
     x.append(input("Podaj trzecią wartosc: "))
     x.sort()
-    print(x)
+    for elements in x:
+        print(elements)
 except:
     print("Coś poszło nie tak")
